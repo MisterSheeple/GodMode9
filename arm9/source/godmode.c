@@ -1460,6 +1460,7 @@ u32 FileHandlerMenu(char* current_path, u32* cursor, u32* scroll, PaneData** pan
     int agbimport = (agbimportable) ? ++n_opt : -1;
     int setup = (setable) ? ++n_opt : -1;
     if (mount > 0) optionstr[mount-1] = (filetype & GAME_TMD) ? STR_MOUNT_CXI_NDS_TO_DRIVE : STR_MOUNT_IMAGE_TO_DRIVE;
+    if (corruptfix > 0) optionstr[corruptfix-1] = STR_FIX_CART_CORRUPTION;
     if (restore > 0) optionstr[restore-1] = STR_RESTORE_SYSNAND_SAFE;
     if (ebackup > 0) optionstr[ebackup-1] = STR_UPDATE_EMBEDDED_BACKUP;
     if (ncsdfix > 0) optionstr[ncsdfix-1] = STR_REBUILD_NCSD_HEADER;
