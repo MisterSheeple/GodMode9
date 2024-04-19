@@ -211,6 +211,7 @@ STRING(INJECT_DATA_FROM_SPECIFY_OFFSET_BELOW, "Inject data from %s?\nSpecify off
 STRING(FAILED_INJECTING_PATH, "Failed injecting %s")
 STRING(MOUNT_CXI_NDS_TO_DRIVE, "Mount CXI/NDS to drive")
 STRING(MOUNT_IMAGE_TO_DRIVE, "Mount image to drive")
+STRING(FIX_CART_CORRUPTION, "Fix cartridge corruption")
 STRING(RESTORE_SYSNAND_SAFE, "Restore SysNAND (safe)")
 STRING(UPDATE_EMBEDDED_BACKUP, "Update embedded backup")
 STRING(SHOW_TITLE_INFO, "Show title info")
